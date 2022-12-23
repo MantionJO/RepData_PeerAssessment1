@@ -12,31 +12,7 @@ output:
 
 ```r
 library(dplyr)
-```
-
-```
-## 
-## Attachement du package : 'dplyr'
-```
-
-```
-## Les objets suivants sont masqués depuis 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## Les objets suivants sont masqués depuis 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(ggplot2)
-```
-
-```
-## Use suppressPackageStartupMessages() to eliminate package startup messages
 ```
 
 2. Load data  
@@ -124,7 +100,7 @@ with(activity, plot.ts(tser, moysteps, type = "l",
 
 ![plot of chunk unnamed-chunk-11](figures/unnamed-chunk-11-1.png)
   
-### 2.	Which 5-minute interval, on average across all the days in the dataset,   contains the maximum number of steps?  
+### 2.	5-minute interval, on average across all the days in the dataset,   that contains the maximum number of steps 
 
 
 ```r

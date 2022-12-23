@@ -80,7 +80,7 @@ with(activity, plot.ts(tser, moysteps, type = "l",
                     ylab = "average number of steps"))
 ```  
   
-### 2.	Which 5-minute interval, on average across all the days in the dataset,   contains the maximum number of steps?  
+### 2.	5-minute interval, on average across all the days in the dataset,   that contains the maximum number of steps 
 
 ```{r}
 filter(activity,moysteps == max(moysteps)) %>%
